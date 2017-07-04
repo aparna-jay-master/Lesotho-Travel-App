@@ -8,5 +8,28 @@
     <!-- Category name for Nature [CHAR LIMIT=20] -->
     <string name="category_nature">Nature</string>
     <!-- Category name for Landmarks [CHAR LIMIT=20] -->
-    <string name="category_landmarks">Other Landmarks</string>
+    <string name="category_landmarks">Landmarks</string>
+
+    <!--Strings for attractions-->
+    <string name="falls">Maletsunyane Falls</string>
+    <string name="sNationalPark">Sehlabathebe National Park</string>
+    <string name="tNationalPark">Tsehlanyane National Park</string>
+    <string name="katseDam">Katse Dam</string>
+    <string name="morija">Morija Museum</string>
+    <string name="thabaBosiu">Thaba-Bosiu National Monument</string>
+    <string name="haKome">Ha Kome Cave Houses</string>
+    <string name="caves">Liphofung Caves</string>
+    <string name="casino">Lesotho Sun Casino</string>
+    <string name="afriSki">AfriSki Ski</string>
+    <string name="saniPub">Sani Mountain Lodge Pub</string>
+
+    <!--Strings for districts-->
+    <string name="maseru">Maseru</string>
+    <string name="quachasNek">Quacha\'s Nek</string>
+    <string name="buthaButhe">Butha-Buthe</string>
+    <string name="thabaTseka">Thaba-Tseka</string>
+    <string name="ty">Teyateyaneng</string>
+    <string name="mokhotlong">Mokhotlong</string>
+
+
 </resources>

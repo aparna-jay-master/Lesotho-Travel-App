@@ -15,9 +15,9 @@ public class HistoricSites extends AppCompatActivity {
 
         //Create list of attractions
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Thaba-Bosiu National Monument", "Maseru"));
-        attractions.add(new Attraction("Ha Kome Cave Houses", "Teyateyaneng"));
-        attractions.add(new Attraction("Liphofung Caves", "Butha-Buthe"));
+        attractions.add(new Attraction(R.string.thabaBosiu, R.string.maseru));
+        attractions.add(new Attraction(R.string.haKome, R.string.ty));
+        attractions.add(new Attraction(R.string.caves, R.string.buthaButhe));
 
         // Create an {@link AttractionAdaptor}, whose data source is a list of {@link Attractions}.
         // The adapter knows how to create list items for each item in the list.

@@ -7,10 +7,10 @@ package com.example.android.lesothovistorsapp;
 public class Attraction {
 
     //Name of attraction
-    private String mName;
+    private int mName;
 
     //District name
-    private String mDistrictName;
+    private int mDistrictName;
 
     //Image
     private int mImageResourceID = NO_IMAGE_PROVIDED;
@@ -21,13 +21,13 @@ public class Attraction {
     /**
      * Creates new attraction object
      *
-     * @param name is name of the attraction
+     * @param name is string id of the name of the attraction
      *
-     * @param districtName is the district the attraction is located in
+     * @param districtName is the string id of the district the attraction is located in
      *
      * @param imageResourceID is the id of the image
      */
-    public Attraction (String name, String districtName, int imageResourceID) {
+    public Attraction (int name, int districtName, int imageResourceID) {
         mName = name;
         mDistrictName = districtName;
         mImageResourceID = imageResourceID;
@@ -40,7 +40,7 @@ public class Attraction {
      *
      * @param districtName is the district the attraction is located in
      */
-    public Attraction (String name, String districtName) {
+    public Attraction (int name, int districtName) {
         mName = name;
         mDistrictName = districtName;
     }
@@ -48,14 +48,14 @@ public class Attraction {
     /**
      * Get the attraction name
      */
-    public String getAttractionName() {
+    public int getAttractionName() {
         return mName;
     }
 
     /**
      * Get the district name
      */
-    public String getDistrictName() {
+    public int getDistrictName() {
         return mDistrictName;
     }
 

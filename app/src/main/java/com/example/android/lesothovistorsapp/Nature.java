@@ -15,9 +15,9 @@ public class Nature extends AppCompatActivity {
 
         //Create list of attractions
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Maletsunyane Falls", "Semonkong"));
-        attractions.add(new Attraction("Sehlabathebe National Park", "Quacha's Nek"));
-        attractions.add(new Attraction("Tsehlanyane National Park", "Butha-Buthe"));
+        attractions.add(new Attraction(R.string.falls, R.string.maseru));
+        attractions.add(new Attraction(R.string.sNationalPark, R.string.quachasNek));
+        attractions.add(new Attraction(R.string.tNationalPark, R.string.buthaButhe));
 
         // Create an {@link AttractionAdaptor}, whose data source is a list of {@link Attractions}.
         // The adapter knows how to create list items for each item in the list.

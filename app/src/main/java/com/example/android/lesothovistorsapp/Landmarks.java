@@ -15,8 +15,9 @@ public class Landmarks extends AppCompatActivity {
 
         //Create list of attractions
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Katse Dam", "Thaba-Tseka"));
-        attractions.add(new Attraction("Morija Museum & Archives", "Maseru"));
+        attractions.add(new Attraction(R.string.katseDam, R.string.thabaTseka));
+        attractions.add(new Attraction(R.string.morija, R.string.maseru));
+        attractions.add(new Attraction(R.string.saniPub, R.string.mokhotlong));
 
         // Create an {@link AttractionAdaptor}, whose data source is a list of {@link Attractions}.
         // The adapter knows how to create list items for each item in the list.

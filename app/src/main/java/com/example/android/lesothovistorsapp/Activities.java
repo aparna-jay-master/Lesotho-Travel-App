@@ -15,8 +15,8 @@ public class Activities extends AppCompatActivity {
 
         //Create list of attractions
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("AfriSki Ski", "Mokhotlong", R.drawable.afriski));
-        attractions.add(new Attraction("Lesotho Sun Casino", "Maseru", R.drawable.casino));
+        attractions.add(new Attraction(R.string.afriSki, R.string.mokhotlong, R.drawable.afriski));
+        attractions.add(new Attraction(R.string.casino, R.string.maseru, R.drawable.casino));
 
         // Create an {@link AttractionAdaptor}, whose data source is a list of {@link Attractions}.
         // The adapter knows how to create list items for each item in the list.
