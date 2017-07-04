@@ -1,26 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white_background"
+    android:orientation="vertical"
     tools:context="com.example.android.lesothovistorsapp.MainActivity">
 
-    <!-- Historic Sites category -->
-
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/landmarks"
-            android:background="@color/category_landmarks"
-            android:text="@string/category_landmarks"
-            style="@style/CategoryStyle"/>
-    </FrameLayout>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/main_image" />
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <TextView
+                android:id="@+id/basic_info"
+                style="@style/CategoryStyle"
+                android:background="@color/category_info"
+                android:text="@string/category_info" />
+        </FrameLayout>
 
-</LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/language"
+                style="@style/CategoryStyle"
+                android:background="@color/category_language"
+                android:text="@string/category_language" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/landmarks"
+                style="@style/CategoryStyle"
+                android:background="@color/category_landmarks"
+                android:text="@string/category_landmarks" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

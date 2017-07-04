@@ -9,4 +9,10 @@
 
     <!--Color for Landmarks -->
     <color name="category_landmarks">#00BCD4</color>
+
+    <!--Color for Lanugage -->
+    <color name="category_language">#E91E63</color>
+
+    <!--Color for Basic Info -->
+    <color name="category_info">#673AB7</color>
 </resources>
