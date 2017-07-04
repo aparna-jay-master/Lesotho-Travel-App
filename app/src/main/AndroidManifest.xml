@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HistoricSites"
+            android:label="@string/category_historic"/>
+        <activity android:name=".Activities"
+            android:label="@string/category_activities"/>
+        <activity android:name=".Nature"
+            android:label="@string/category_nature"/>
+        <activity android:name=".Landmarks"
+            android:label="@string/category_landmarks">
+        </activity>
     </application>
 
 </manifest>
