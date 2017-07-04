@@ -1,7 +1,6 @@
 package com.example.android.lesothovistorsapp;
 
 import android.content.Context;
-import android.media.MediaPlayer;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,23 +34,23 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.list_item_attraction, parent, false);
         }
 
         //Get the {@link Attraction} object located at this position in the list
         Attraction currentAttraction = getItem(position);
 
-        //Find the TextView in the list_item.xml layout with the ID attraction_name_text_view
+        //Find the TextView in the list_item_attraction.xmlraction.xml layout with the ID attraction_name_text_view
         TextView attractionTextView = (TextView) listItemView.findViewById(R.id.attraction_name_text_view);
         //Get attraction name from currentAttraction object and set Text
         attractionTextView.setText(currentAttraction.getAttractionName());
 
-        //Find the TextView in the list_item.xml layout with the ID district_text_view
+        //Find the TextView in the list_item_attraction_attraction.xml layout with the ID district_text_view
         TextView districtTextView = (TextView) listItemView.findViewById(R.id.district_text_view);
         //Get attraction name from currentAttraction object and set Text
         districtTextView.setText(currentAttraction.getDistrictName());
 
-        // Find the ImageView in the list_item.xml layout with the ID image.
+        // Find the ImageView in the list_item_attraction.xmlraction.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
         // Check if an image is provided for this word or not
         if (currentAttraction.hasImage()) {
