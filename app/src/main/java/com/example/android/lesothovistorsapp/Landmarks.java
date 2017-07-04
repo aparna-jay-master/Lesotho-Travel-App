@@ -18,6 +18,14 @@ public class Landmarks extends AppCompatActivity {
         attractions.add(new Attraction(R.string.katseDam, R.string.thabaTseka));
         attractions.add(new Attraction(R.string.morija, R.string.maseru));
         attractions.add(new Attraction(R.string.saniPub, R.string.mokhotlong));
+        attractions.add(new Attraction(R.string.afriSki, R.string.mokhotlong, R.drawable.afriski));
+        attractions.add(new Attraction(R.string.casino, R.string.maseru, R.drawable.casino));
+        attractions.add(new Attraction(R.string.thabaBosiu, R.string.maseru));
+        attractions.add(new Attraction(R.string.haKome, R.string.ty));
+        attractions.add(new Attraction(R.string.caves, R.string.buthaButhe));
+        attractions.add(new Attraction(R.string.falls, R.string.maseru));
+        attractions.add(new Attraction(R.string.sNationalPark, R.string.quachasNek));
+        attractions.add(new Attraction(R.string.tNationalPark, R.string.buthaButhe));
 
         // Create an {@link AttractionAdaptor}, whose data source is a list of {@link Attractions}.
         // The adapter knows how to create list items for each item in the list.

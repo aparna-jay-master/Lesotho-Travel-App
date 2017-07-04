@@ -1,12 +1,6 @@
 <resources>
     <!-- Title for the application. -->
     <string name="app_name">Lesotho Vistors App</string>
-    <!-- Category name for Historic Sites [CHAR LIMIT=20] -->
-    <string name="category_historic">Historic Sites</string>
-    <!-- Category name for Activities [CHAR LIMIT=20] -->
-    <string name="category_activities">Activities</string>
-    <!-- Category name for Nature [CHAR LIMIT=20] -->
-    <string name="category_nature">Nature</string>
     <!-- Category name for Landmarks [CHAR LIMIT=20] -->
     <string name="category_landmarks">Landmarks</string>
 

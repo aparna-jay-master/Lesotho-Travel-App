@@ -6,15 +6,6 @@
 
     <!-- Background color for app -->
     <color name="white_background">#ECEFF1</color>
-    
-    <!--Color for Historic Sites -->
-    <color name="category_historic">#673AB7</color>
-
-    <!--Color for Activities -->
-    <color name="category_activities">#3F51B5</color>
-
-    <!--Color for Nature -->
-    <color name="category_nature">#2196F3</color>
 
     <!--Color for Landmarks -->
     <color name="category_landmarks">#00BCD4</color>
