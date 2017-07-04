@@ -28,5 +28,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(landmarksIntent);
             }
         });
+
+        // Find the View that shows the Language category
+        final TextView language = (TextView) findViewById(R.id.language);
+
+        // Set a click listener on that View
+        language.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the Landmarks category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link Landmarks}
+                Intent languageIntent = new Intent(MainActivity.this, LanguageActivity.class);
+
+                // Start the new activity
+                startActivity(languageIntent);
+            }
+        });
     }
 }

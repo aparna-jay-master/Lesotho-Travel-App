@@ -3,7 +3,7 @@
     <string name="app_name">Lesotho Vistors App</string>
     <!-- Category name for Landmarks [CHAR LIMIT=20] -->
     <string name="category_landmarks">Landmarks</string>
-    <!-- Category name for Language [CHAR LIMIT=20] -->
+    <!-- Category name for LanguageActivity [CHAR LIMIT=20] -->
     <string name="category_language">Language</string>
     <!-- Category name for Basic Info [CHAR LIMIT=20] -->
     <string name="category_info">Basic Info</string>
